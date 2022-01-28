@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains example_module.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function example_module_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the example_module module.
+    case 'help.page.example_module':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Creacion de Modulo example_module.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function example_module_theme() {
+  return [
+    'example_module' => [
+      'render element' => 'children',
+    ],
+  ];
+}

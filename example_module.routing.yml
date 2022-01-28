@@ -1,0 +1,14 @@
+example_module.formulario:
+  path: '/example-module/form'
+  defaults:
+    _form: '\Drupal\example_module\Form\formulario'
+    _title: 'Nuevo Usuario'
+  requirements:
+    _access: 'TRUE'
+example_module.user_controller_getUsers:
+  path: '/example-module/data'
+  defaults:
+    _controller: '\Drupal\example_module\Controller\UserController::getUsers'
+    _title: 'Listado de Usuarios'
+  requirements:
+    _permission: 'access content'

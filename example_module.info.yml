@@ -1,0 +1,5 @@
+name: 'example-module'
+type: module
+description: 'Creacion de Modulo example_module.'
+core: 8.x
+package: 'Custom'
