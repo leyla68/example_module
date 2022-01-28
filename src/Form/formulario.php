@@ -74,7 +74,7 @@ class formulario extends FormBase {
     ];
     $form['submit'] = [
       '#type' => 'submit',
-      '#value' => $this->t('Submit'),
+      '#value' => $this->t('Enviar'),
       '#ajax' => [
         'callback' => '::submitForm',
       ],
