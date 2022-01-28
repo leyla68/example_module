@@ -17,6 +17,40 @@
 * example_module/form :  Carga el formulario de creación de usuario
 * example_module/data :  Carga los datos del usuario en una tabla HTML
 
+## Evidencia Grafica del modulo
+* Formulario de Captura
+
+  ![image](https://user-images.githubusercontent.com/84405166/151626462-d3cacb7d-9d93-4dd7-8ab0-edff9519586f.png)
+
+* Validación de campo con Ajax
+
+  ![image](https://user-images.githubusercontent.com/84405166/151626742-58d77b03-f212-4a5c-a351-83dc74ee3991.png)
+  ![image](https://user-images.githubusercontent.com/84405166/151626933-94d8987b-6c15-4044-b35c-0562b3782ade.png)
+  ![image](https://user-images.githubusercontent.com/84405166/151627070-2e133edb-44d3-4457-aeb0-db2edb2cb9c9.png)
+
+* Validación de obligatoriedad de campos al momento de enviar el formulario (Ajax)
+
+  ![image](https://user-images.githubusercontent.com/84405166/151627183-8979e129-a7e8-4854-8cef-7713bee83bcb.png)
+  
+* Generación automatica de control de calendario para campo de fecha de nacimiento
+
+  ![image](https://user-images.githubusercontent.com/84405166/151627400-6ee819d5-f21e-49bb-bde4-bcf6ffe06163.png)
+  
+* Envio de los datos a través de Ajax
+
+  ![image](https://user-images.githubusercontent.com/84405166/151627828-e2655aec-feb1-41e9-afa5-e03856f9fa02.png)
+
+* Evidencia de insercción de datos y aplicación de regla de negocio para campo estado
+
+  ![image](https://user-images.githubusercontent.com/84405166/151628306-66971df6-8b1f-4755-89e7-aaf7f35a5381.png)
+
+* Listado de usuarios registrados desde el formulario
+
+  ![image](https://user-images.githubusercontent.com/84405166/151628521-83f0a64f-548a-4573-b0bc-35ee6453f48a.png)
+
+## Apoyo tecnico
+* El modulo se construyo en un Drupal 8 funcionando sobre composer
+* Utilice Drupal Console para apoyo de generación de codigo fuente, para Formulario y Controlador
 
 ## Checklist Prueba
 
